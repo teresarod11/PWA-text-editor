@@ -14,7 +14,7 @@ module.exports = () => {
       install: './src/js/install.js'
     },
     output: {
-      filename: 'text-editor.bundle.js',
+      filename: '.bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [// Webpack plugin that generates our html file and injects our bundles. 
